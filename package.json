@@ -1,0 +1,24 @@
+{
+  "name": "javascript-algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "",
+    "serve": "npx honkit serve",
+    "build": "npx honkit build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mark420524/javascript-algorithms.git"
+  },
+  "keywords": [
+    "javascript",
+    "algorithms"
+  ],
+  "author": "Mark",
+  "license": "ISC",
+  "devDependencies": {
+    "honkit": "^3.6.22"
+  }
+}
