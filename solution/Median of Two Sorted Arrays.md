@@ -111,9 +111,9 @@ var findMedianSortedArrays = function(nums1, nums2) {
 
 function binarySearch( index,  nums,   target) {
     let left = index; 
-    let right = nums.length - 1; // 注意
+    let right = nums.length - 1; 
 		
-    while(left <= right) { // 注意
+    while(left <= right) { 
 
         let mid =  (right + left) >>1 ;
 
@@ -122,7 +122,7 @@ function binarySearch( index,  nums,   target) {
         }else if (nums[mid] < target){
             left = mid + 1;  
         }else if (nums[mid] > target){
-            right = mid - 1; // 注意
+            right = mid - 1; 
         }
 
     }
